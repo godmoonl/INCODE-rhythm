@@ -1,7 +1,11 @@
 import pygame
 
+HS_PATH = 'highscore.txt'
+
 MAX_WIDTH = 1280
 MAX_HEIGHT = 720
+
+ACC = 0.5
 
 char_images = [
     pygame.image.load('images/572px/1.png'),
